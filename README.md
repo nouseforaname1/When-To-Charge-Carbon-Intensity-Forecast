@@ -17,13 +17,19 @@ e.g. this weekend one day was windy, and by extending my 'low State-of-Charge co
 Hope it's useful.
 
 1/ Install the Scriptable IOS App on your phone
+
 2/ Create a new script (call it anything)
+
 3/ Cut/paste the Raw of the javascript file here into the Scriptable - edit the postcode from RG10 to yours (**/Just the bit before the space though/**)
+
 4/ Either:
     (i) On your iPhone's Homescreen press and hold on any empty space until the (+) appears in the top left;
     (ii) Or swipe left to right to add it to the Today View (click edit at the bottom to get the +)
+
 5/ Create a Sciptable widget (swipe left/right to get the middle sized rectangle sized widget)
+
 6/ Tap on widget/Edit widget/tap Script/select whatever you called the script in (2) above
+
 7/ Tap the black space above or below the Run Script dialog - give it a second to run - then hit done
 
 The widget is set to auto-refresh every three hours - to avoid server load. Just click on it to override.
