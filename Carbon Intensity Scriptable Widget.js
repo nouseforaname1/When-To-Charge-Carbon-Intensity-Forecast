@@ -12,7 +12,7 @@ const vertLineWeight = .5
 
 // Pull the widget's postcode from the JSON encoded parameter field (set when you edit the widget) - or use defaults
 // Editing the defaults is easier, otherwise type this into the field: { "postcode" : "firstbitonly" }
-const widgetParams = JSON.parse((args.widgetParameter != null) ? args.widgetParameter : '{ "postcode" : "GU1" , "accentColor" : "#33cc33" }')
+const widgetParams = JSON.parse((args.widgetParameter != null) ? args.widgetParameter : '{ "postcode" : "RG10" , "accentColor" : "#33cc33" }')
 
 const widgetHeight = 338
 const widgetWidth = 720
