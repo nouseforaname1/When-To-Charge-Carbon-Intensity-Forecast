@@ -8,7 +8,7 @@ This widget aims to help you judge how to time-shift your use, and minimise that
 
 It uses information from the https://www.carbonintensity.org.uk/ API site to display the carbon intensity forecast for electricity in your general postcode area (the API works off just the start of your postcode, up to the space e.g. RG10)
 
-It also shows you the current carbon intensity, the minimum foreseen in the forecast and also the local generation mix (it varies a lot geographically - have a play with the website to see what I mean. Look at the code to understand the classification - but IIRC, red is fossil, yellow solar, blue hydro and wind, grey imports (like French nuclear), and I think I made nuclear green, as in this medium term context, I count it as such - alter the code if you don't like that).
+It also shows you the current carbon intensity, the minimum foreseen in the forecast and also the local generation mix (it varies a lot geographically - have a play with the website to see what I mean). Look at the code to understand the colour coding - but IIRC, red is fossil, yellow solar, blue hydro and wind, grey imports (like French nuclear), and I think I made nuclear green, as on the short-medium term horizon, I count it as such - alter the code if you have another view). Just as a note - the API calculates import carbon intensity from available data. If you're in the SE, we appear to get a lot of low-CO2 French nuclear energy to supply baseload.
 
 The idea is, if you have an EV (or anything that intermittently sucks in lots of juice from the grid) - and are able to time your charged/use - you can use this to judge when you will cause least CO2 to be generated.
 
