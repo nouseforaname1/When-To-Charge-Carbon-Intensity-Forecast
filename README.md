@@ -4,7 +4,7 @@ This is a Scriptable Widget for IOS.
 
 Even if you have green tariff like myself, you'll be aware the UK grid needs to generates CO2 to satisfy your demand when renewables are unavailable (even if your green tariff causes someone else to get a green unit some other time to compensate).
 
-The widget aims to help you judge how to time-shift your use, and minimise that CO2 generation. That might help balance a greener grid, create more renewables demand and reduce demand for fossil sources.
+This widget aims to help you judge how to time-shift your use, and minimise that CO2 generation. That might help balance a greener grid, create more renewables demand and reduce demand for fossil sources.
 
 It uses information from the https://www.carbonintensity.org.uk/ API site to display the carbon intensity forecast for electricity in your general postcode area (the API works off just the start of your postcode, up to the space e.g. RG10)
 
