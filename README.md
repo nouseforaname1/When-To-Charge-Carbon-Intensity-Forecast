@@ -2,11 +2,17 @@
 
 This is a Scriptable Widget for IOS.
 
-It uses information from the https://www.carbonintensity.org.uk/ API site to display the carbon intensity forecast for electricity in your postcode (well, the start of it - just the first part - e.g. RG10)
+Even if you have green tariff like me, you'll be aware the UK grid needs to generates CO2 to satisfy your demand when renewables are unavailable (even if your green tariff causes someone else to get a green unit some other time to compensate).
+
+The widget aims to help you judge how to time-shift your use, and minimise that CO2 generation. That might help balance a greener grid.
+
+It uses information from the https://www.carbonintensity.org.uk/ API site to display the carbon intensity forecast for electricity in your general postcode area (the API works off just the start of your postcode, up to the space e.g. RG10)
 
 It also shows you the current carbon intensity - and the minimum foreseen in the forecast.
 
-The idea is, if you have an EV and aren't lucky enough to have solar power - and are able to time your charges e.g. this weekend one day was windy, and by extending my 'low State-of-Charge comfort zone' (how long I was happy to have a low SoC at ~10%) by a day - I was able to reduce the CO2 generated in charging my car to a third of what it would have been.
+The idea is, if you have an EV (or anything that intermittently sucks in lots of juice from the grid) - and are able to time your charged/use - you can use this to judge when you will cause least CO2 to be generated.
+
+e.g. this weekend one day was windy, and by extending my 'low State-of-Charge comfort zone' (how long I was happy to have a low SoC at ~10%) by a day - I was able to reduce the CO2 generated in charging my car to a third of what it would have been.
 
 Hope it's useful.
 
