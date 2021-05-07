@@ -10,6 +10,8 @@ It uses information from the https://www.carbonintensity.org.uk/ API site to dis
 
 It also shows you the current carbon intensity, the minimum foreseen in the forecast and also the local generation mix (it varies a lot geographically - have a play with the website to see what I mean). Look at the code to understand the colour coding - but IIRC, red is fossil, yellow solar, blue hydro and wind, grey imports (like French nuclear), and I think I made nuclear green, as on the short-medium term horizon, I count it as such - alter the code if you have another view). Just as a note - the API calculates import carbon intensity from available data. If you're in the SE, we appear to get a lot of low-CO2 French nuclear energy to supply baseload.
 
+Note the generation mix colour coding underplays the contribution of renewables during low carbon periods - as the height of the graph is CO2 intensity (not total generation).
+
 The idea is, if you have an EV (or anything that intermittently sucks in lots of juice from the grid) - and are able to time your charged/use - you can use this to judge when you will cause least CO2 to be generated.
 
 e.g. this weekend one day was windy, and by extending my 'low State-of-Charge comfort zone' (how long I was happy to have a low SoC at ~10%) by a day - I was able to reduce the CO2 generated in charging my car to a third of what it would have been.
