@@ -21,7 +21,7 @@ const lhsMargin = 25
 const postcode = widgetParams.postcode
 const accentColor1 = new Color(widgetParams.accentColor, 1)
 const accentColor2 = Color.lightGray()
-const halfHoursToShow = 96
+let halfHoursToShow = 96
 const spaceBetweenHalfHours = 7         // space in pixels between the half-hours
 
 const titleFontSize = 20
@@ -73,6 +73,8 @@ drawTextP(" Forecast grams CO2/kWh (" + formattedTime + ")", titlePos, Color.whi
                                                                                  
 // Find min, max
 let min, max;
+if (data.data.length < halfHoursToShow) halfHoursToShow = data.data.length     // Fix for when API doesn't return 2 days of data
+
 for(let i = 0; i < halfHoursToShow; i++) {
   let aux = data.data[i].intensity.forecast
   min = (aux < min || min == undefined ? aux : min)
